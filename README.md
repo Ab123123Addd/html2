@@ -1,75 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>سيرة ذاتية</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول المستلمين</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             direction: rtl;
             text-align: right;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
         }
-        .container {
-            width: 60%;
-            margin: 50px auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            border-bottom: 1px solid #007bff;
+        table {
+            width: 100%;
+            border-collapse: collapse;
             margin-bottom: 20px;
-            padding-bottom: 10px;
         }
-        .section:last-child {
-            border: none;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
         }
-        h2 {
-            color: #007bff;
-            font-size: 24px;
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            font-weight: bold;
             margin-bottom: 10px;
-        }
-        p {
-            font-size: 18px;
-            margin: 5px 0;
-        }
-        .contact-info {
-            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="section">
-            <h2>البيانات الشخصية</h2>
-            <p>الاسم: حاتم علي ضيف الله القرني</p>
-            <p>العنوان: / تبوك - حي الصفاء</p>
-          
-            <p>الجنسية: سعودي</p>
-        </div>
-        <div class="section">
-            <h2>المؤهلات العلمية</h2>
-            <p>تقنية معلومات.</p>
-        </div>
-        <div class="section">
-            <h2>المهارات والأهداف الوظيفية</h2>
-            <p>العمل على نجاح خطط العمل بشكل يتناسب مع الإمكانيات المتاحة.</p>
-            <p>اقتراح خطط تنظيم العمل بشكل يتناسب مع الإمكانيات المتاحة.</p>
-            <p>العمل مع الزملاء بروح الفريق المتميز الطموح.</p>
-            <p>تحمل الأعمال الطارئة وإنجازها بشكل مناسب وفق لطبيعتها.</p>
-            <p>التطوير الدائم بما تتطلبه مصلحة العمل.</p>
-            <p>إجادة الحاسب الآلي.</p>
-            <p>إجادة اللغة الإنجليزية.</p>
-            <p>سرعة التكيف في محيط العمل.</p>
-        </div>
-        <div class="section contact-info">
-            <h2>التواصل</h2>
-            <p>جوال: 055930230</p>
-            <p>الإيميل: h07ali09@gmail.com</p>
-        </div>
-    </div>
+
+    <h1>بناء على الخطة الأمنية الجديدة وزيادة عدد المستلمين تم تغيير أسماء المستلمين وفقاً للجداول أدناه</h1>
+    <p>المستلمون في حراسة بوابة مقر إدارة الصيانة والتشغيل معسكرات خشم العان</p>
+    <p>من تاريخ: 21/07/2024م</p>
+    <p>إلى تاريخ: 05/08/2024م</p>
+
+    <table>
+        <caption>المستلم من الساعة 8 صباحاً إلى الساعة 4 مساءً</caption>
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>الرتبة</th>
+                <th>الرقم العسكري</th>
+                <th>السجل المدني</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>رايد بن مطلق بن محمد الشمري</td>
+                <td>جندي</td>
+                <td>474</td>
+                <td>١٠٩٨٣٩٥٤٤٣</td>
+            </tr>
+            <tr>
+                <td>محمد بن رشيد بن خلف الشمري</td>
+                <td>جندي أول</td>
+                <td>519</td>
+                <td>١٠٧٤٨١٩٥٥٦</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>المستلم من الساعة 4 صباحاً إلى الساعة 12 مساءً</caption>
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>الرتبة</th>
+                <th>الرقم العسكري</th>
+                <th>السجل المدني</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>عادل بن سالم بن خليف الشمري</td>
+                <td>جندي أول</td>
+                <td>980</td>
+                <td>١٠٧٣٦٦٧٤٨٥</td>
+            </tr>
+            <tr>
+                <td>مبارك بن عبدالله بن مشعان السهلي</td>
+                <td>جندي</td>
+                <td>365</td>
+                <td>١٠٧٤٤٨٠٢٥٠</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>المستلم من الساعة 12 صباحاً إلى الساعة 8 مساءً</caption>
+        <thead>
+            <tr>
+                <th>الاسم</th>
+                <th>الرتبة</th>
+                <th>الرقم العسكري</th>
+                <th>السجل المدني</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ناصر بن محمد بن خنيفس العنزي</td>
+                <td>جندي</td>
+                <td>752</td>
+                <td>١٠٩٢٥٠٨٥٩٥</td>
+            </tr>
+            <tr>
+                <td>سالم بن سعد بن محمد القحطاني</td>
+                <td>جندي أول</td>
+                <td>737</td>
+                <td>١٠٥٨٣١٠٧٣٩</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
+```
